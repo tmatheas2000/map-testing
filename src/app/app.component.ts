@@ -21,7 +21,7 @@ export class AppComponent implements OnInit  {
     this.map = new mapboxgl.Map({
       accessToken: 'pk.eyJ1Ijoic2hpa2hhcmFncmF3YWw0MjAiLCJhIjoiY2xsNnYwYm45MHdqbDNlbWt5NWVuYjFpYiJ9.6nYK9qgTsPtxfStWhq4pWw',
       container: 'map',
-      style: 'mapbox://styles/mapbox/streets-v12',
+      style: 'mapbox://styles/mapbox/satellite-v9',
       center: this.coordinates[0], // Set the initial center coordinates
       zoom: 12
     });
